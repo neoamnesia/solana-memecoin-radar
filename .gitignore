@@ -1,14 +1,12 @@
-# Secrets et clés. Le script ne lit pas .env : seule la variable
-# d'environnement HELIUS_API_KEY est prise en compte, hors du dépôt.
+# Fichiers locaux et secrets
 .env
 .env.*
 *.key
-
-# État local des bots. radar-state.json garde l'heure du dernier
-# rapport de Radar Trenches sur la machine qui le fait tourner.
-radar-state.json
 *.tmp
 
 # Python
 __pycache__/
 *.py[cod]
+
+# Systeme
+.DS_Store
